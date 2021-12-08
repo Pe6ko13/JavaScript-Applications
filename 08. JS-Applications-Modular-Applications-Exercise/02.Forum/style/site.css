@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#container {
+    max-width: 980px;
+    margin: auto;
+    min-height: 100vh;
+    position: relative;
+}
+
+header, footer {
+    background-color: rgb(86, 127, 139);
+    padding: 8px, 16px;
+    color: cornsilk;
+    text-align: center;
+}
+
+header::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.user, .guest {
+    display: none;
+}
+
+nav {
+    float: right;
+}
+
+.nav-link {
+    background-color: rgb(86, 127, 139);
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    margin: 8px;
+    
+}
+
+.home {
+    display: inline-block;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    background-color: rgb(131, 248, 77);
+}
+
+nav a {
+    float: left;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    margin: 16px 0;
+}
+
+h2 {
+    margin: 8px 0;
+    text-align: center;
+}
+
+.splash {
+    padding: 32px 64px;
+    margin: 64px;
+    box-shadow: 0 0 15px 5px rgb(12, 34, 94);
+}
+
+article.preview {
+    box-shadow: 0 0 15px 5px rgb(12, 34, 94);
+    margin: 16px 32px;
+}
+
+article.preview div {
+    font-size: 80%;
+    color: rgb(3, 3, 3);
+    padding: 8px 16px;
+}
+
+.topic-title {
+    color: cornsilk;
+}
+
+label {
+    display: block;
+    margin: 8px 0;
+}
+
+label span {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    text-align: right;
+    margin-right: 8px;
+    vertical-align: top;
+}
+
+label textarea {
+    width: 300px;
+    height: 200px;
+}
+
+.narrow {
+    width: 500px;
+    padding: 8px;
+    box-shadow: 0 0 15px 5px rgb(12, 34, 94);
+    margin: 50px auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.action {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: rgb(166, 228, 247);
+    border: none;
+    color: black;
+    margin: 16px;
+}
+
+.action:hover {
+    cursor: pointer;
+    background-color: rgb(204, 252, 117);
+}
+
+.error input {
+    border: 1px solid red;
+}
+
+.error-msg {
+    color: red;
+}
+
+.preview header {
+    color: rgb(231, 202, 84);
+}
+
+.topic-content {
+    padding: 16px;
+    margin: 8px;
+}
